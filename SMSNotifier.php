@@ -8,16 +8,16 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'LBL_ADD_MORE_FIELDS'          => 'Aggiungi pi&ugrave; campi'                 ,
-	'LBL_CHECK_STATUS'             => 'Controlla stato'                    ,
-	'LBL_SELECT_THE_PHONE_NUMBER_FIELDS_TO_SEND' => 'Seleziona i campi numero di telefono per inviare',
-	'LBL_SEND_SMS_TO_SELECTED_NUMBERS' => 'Manda SMS ai numeri selezionati',
-	'LBL_SERVER_CONFIG'           => 'Configurazione server'               ,
-	'LBL_SMSNOTIFIER_INFORMATION'  => 'Informazione SMS'                   ,
-	'LBL_STEP_1'                   => 'Step 1'                             ,
-	'LBL_STEP_2'                   => 'Step 2'                             ,
-	'LBL_TYPE_THE_MESSAGE'         => 'Scrivi il messaggio'                ,
-	'LBL_WRITE_YOUR_MESSAGE_HERE'  => 'Scrivi il tuo messaggio qui'        ,
-	'message'                      => 'Messagio'                           ,
-	'SINGLE_SMSNotifier'           => 'Notifica SMS'                       ,
+	'LBL_SEND_SMS_TO_SELECTED_NUMBERS' => 'Send SMS to the selected numbers',
+	'LBL_STEP_1'                   => 'Step 1'                      ,
+	'LBL_STEP_2'                   => 'Step 2'                      ,
+	'LBL_SELECT_THE_PHONE_NUMBER_FIELDS_TO_SEND' => 'Select the phone number fields to send',
+	'LBL_TYPE_THE_MESSAGE'         => 'Type the message'            ,
+	'LBL_WRITE_YOUR_MESSAGE_HERE'  => 'write your message here'     ,
+	'LBL_ADD_MORE_FIELDS'          => 'Add more fields'             ,
+	'LBL_SERVER_CONFIG'           => 'Server Configuration'        ,
+	'LBL_CHECK_STATUS'             => 'Check Status'                ,
+	'message'                      => 'Message'                     ,
+	'LBL_SMSNOTIFIER_INFORMATION'  => 'SMS Information'             ,
+	'SINGLE_SMSNotifier'           => 'SMS Notifier'                , // TODO: Review
 );

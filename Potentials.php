@@ -8,42 +8,56 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'Amount'                       => 'Ammontare'                   , 
-	'Campaign Source'              => 'Fonte campagna'              , 
-	'Closed Lost'                  => 'Chiuso PERSO'                , 
-	'Closed Won'                   => 'Chiuso VINTO'                , 
-	'Contact Name'                 => 'Nome contatto'               ,
-	'Existing Business'            => 'Business esistente'          , 
-	'Forecast Amount'              => 'Ammontare previsione'        ,
-	'Forecast'                     => 'Previsione vendite'          , 
-	'Funnel'                       => 'Funnel vendite'              , 
-	'Id. Decision Makers'          => 'Potere decisionale'          , 
-	'LBL_ADD_RECORD'               => 'Aggiungi opportunit&agrave;' , 
-	'LBL_EXPECTED_CLOSE_DATE_ON'   => 'Previsione di chiusura in'   , 
-	'LBL_OPPORTUNITY_INFORMATION'  => 'Informazioni opportunit&agrave;' , 
-	'LBL_RECORDS_LIST'             => 'Lista opportunit&agrave;'    , 
-	'LBL_RELATED_CONTACTS'         => 'Contatto relazionato'        ,
-	'LBL_RELATED_PRODUCTS'         => 'Prodotto relazionato'        ,
-	'Needs Analysis'               => 'Da analizzare'               , 
-	'Negotiation/Review'           => 'Trattativa/Revisione'        , 
-	'New Business'                 => 'Nuovo business'              , 
-	'Next Step'                    => 'Step successivo'             , 
-	'--None--'                     => '--Nessuno--'                 , 
-	'Perception Analysis'          => 'Analisi di percezione'       , 
-	'Potential No'                 => 'Numero opportunit&agrave;'   , 
-	'Potentials by Stage'          => 'Opportunit&agrave; per stadio' , 
-	'Potentials'                   => 'Opportunit&agrave;'          , 
-	'Probability'                  => 'Probabilit&agrave; (%)'      , 
-	'Proposal/Price Quote'         => 'Proposta/Preventivo Prezzo'  , 
-	'Prospecting'                  => 'In prospettiva'              , 
-	'Qualification'                => 'Qualificazione'              , 
-	'Related To'                   => 'Nome Organizzazione'                ,
-	'Sales Stage'                  => 'Stadio di vendita'           , 
+	'Potentials'                   => 'Opportunita\''               , 
 	'SINGLE_Potentials'            => 'Opportunit&agrave;'          , 
-	'Top Potentials'               => 'Migliori opportunit&agrave;' , 
-	'Total Revenue'                => 'Ricavi per venditore'        , 
-	'Value Proposition'            => 'Proposto valore',
-	
-	//
-	'Potentials Won'               => 'Opportunit&agrave; vinte'   , 
+	'LBL_ADD_RECORD'               => 'Add Opportunity'             , 
+	'LBL_RECORDS_LIST'             => 'Opportunities List'          , 
+	'LBL_OPPORTUNITY_INFORMATION'  => 'Informazioni Opportunit&agrave;', 
+	'Potential No'                 => 'No. Opportunit&agrave;'      , 
+	'Amount'                       => 'Ammontare'                   , 
+	'Next Step'                    => 'Step successivo'             , 
+	'Sales Stage'                  => 'Stadio di vendita'           , 
+	'Probability'                  => 'Probabilit&agrave; (%)'      , 
+	'Campaign Source'              => 'Fonte Campagna'              , 
+	'Forecast Amount'              => 'Entrate Weighted'             , 
+	'Funnel'                       => 'Sales Funnel'                , 
+	'Potentials by Stage'          => 'Opportunities by Stage'      , 
+	'Total Revenue'                => 'Revenue by Salesperson'      , 
+	'Top Potentials'               => 'Top Opportunities'           , 
+	'Forecast'                     => 'Sales Forecast'              , 
+	'Prospecting'                  => 'In Prospettiva'              , 
+	'Qualification'                => 'Qualificazione'              , 
+	'Needs Analysis'               => 'Da Analizzare'               , 
+	'Value Proposition'            => 'Proposto il valore'          , 
+	'Id. Decision Makers'          => 'Potere decisionale'          , 
+	'Perception Analysis'          => 'Analisi di percezione'       , 
+	'Proposal/Price Quote'         => 'Proposta/Preventivo Prezzo'  , 
+	'Negotiation/Review'           => 'Trattativa/Revisione'        , 
+	'Closed Won'                   => 'Chiuso VINTO'                , 
+	'Closed Lost'                  => 'Chiuso PERSO'                , 
+	'--None--'                     => '--Nessuno--'                 , 
+	'Existing Business'            => 'Business Esistente'          , 
+	'New Business'                 => 'Nuovo Business'              , 
+	'LBL_EXPECTED_CLOSE_DATE_ON'   => 'Expected to close on'        , 
+	'LBL_RELATED_CONTACTS'         => 'Related Contacts'            , // TODO: Review
+	'LBL_RELATED_PRODUCTS'         => 'Related Products'            , // TODO: Review
+    'Related To'                   => 'Nome organizzazione'         ,
+    'Type'                         => 'Tipo'                        , 
+    
+    //Convert Potentials
+    'LBL_CONVERT_POTENTIAL' => 'Convertire Opportunità',
+    'LBL_POTENTIALS_FIELD_MAPPING' => 'Opportunità Mapping Campo',
+    'LBL_CONVERT_POTENTIALS_ERROR' => 'Devi abilitare progetto per convertire il Opportunity',
+    'LBL_POTENTIALS_FIELD_MAPPING_INCOMPLETE' => 'Opportunità campo Mapping è incompleta (Impostazioni> Gestione moduli> Opportunità> Opportunità campo Mapping)',
+	'LBL_CREATE_PROJECT' => 'Crea progetto',
+    
+    //Potentials Custom Field Mapping
+	'LBL_CUSTOM_FIELD_MAPPING'=> 'Possibilità di progetto di mappatura',
+
+  'Contact Name' => 'Nome Del Contatto',
+
+);
+
+$jsLanguageStrings = array(
+	'JS_SELECT_PROJECT_TO_CONVERT_LEAD' => 'La conversione richiede la selezione di progetti',
 );

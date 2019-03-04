@@ -8,29 +8,23 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'Accepted'                     => 'Accettato'                   , 
-	'Inventory Manager'            => 'Responsabile inventario'     , 
-	'LBL_ADD_RECORD'               => 'Aggiungi preventivo'         , 
-	'LBL_EXPORT_TO_PDF'            => 'Esporta in PDF'              , 
-	'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => '&egrave; stato cancellato. Rimuovi o sostituisci questo elemento',
-	'LBL_QUOTE_INFORMATION'        => 'Informazioni preventivo'     , 
-	'LBL_RECORDS_LIST'             => 'Lista preventivi'            , 
-	'LBL_SEND_MAIL_PDF'            => 'Invia email con PDF'         ,
-	'LBL_THIS_LINE_ITEM_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_THIS_LINE_ITEM' => 'Questo elemento &egrave; stato cancellato, rimuovilo',
-	'LBL_THIS'                     => 'Questo',
-	'Quote No'                     => 'Nr. preventivo'              , 
-	'Quote Stage'                  => 'Stadio preventivo'           , 
-	'Rejected'                     => 'Rifiutato'                   , 
+    'Quotes'                       => 'Preventivo'                  , 
 	'SINGLE_Quotes'                => 'Preventivo'                  , 
+	'LBL_EXPORT_TO_PDF'            => 'Esporta in PDF'              , 
+	'LBL_SEND_MAIL_PDF'            => 'Send Email with PDF'         , // TODO: Review
+	'LBL_ADD_RECORD'               => 'Add Quote'                   , 
+	'LBL_RECORDS_LIST'             => 'Lista Preventivi'            , 
+	'LBL_QUOTE_INFORMATION'        => 'Informazioni Preventivo'     , 
+	'Quote No'                     => 'No. Preventivo'              , 
+	'Quote Stage'                  => 'Stadio Preventivo'           , 
 	'Valid Till'                   => 'Valido fino a'               , 
-	 'Open Quotes'                 => 'Preventivo aperto',
+	'Inventory Manager'            => 'Responsabile inventario'     , 
+	'Accepted'                     => 'Accettato'                   , 
+	'Rejected'                     => 'Rifiutato'                   , 
+    'Related To'                   => 'Relativi a'                  ,
 
-        //Taxes 
-        'VAT'      => 'IVA', 
-        'Service'  => 'Servizio', 
-        'Sales'    => 'Vendite'
-);
+  'LBL_THIS' => 'Questo',
+  'LBL_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_OR_REPLACE_THIS_ITEM' => 'viene eliminato dal sistema.si prega di rimuovere o sostituire questo elemento',
+  'LBL_THIS_LINE_ITEM_IS_DELETED_FROM_THE_SYSTEM_PLEASE_REMOVE_THIS_LINE_ITEM' => 'Questo elemento viene eliminato dal sistema,si prega di rimuovere questa riga di elementi',
 
-$jsLanguageStrings = array(
-	'JS_PLEASE_REMOVE_LINE_ITEM_THAT_IS_DELETED' => 'Cancella gli elementi che sono stati eliminati',
 );

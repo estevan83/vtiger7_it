@@ -8,26 +8,26 @@
  * All Rights Reserved.
  *************************************************************************************/
 $languageStrings = array(
-	'HTTP_ERROR' => 'Il sito che stai provando ad aprire non &egrave; sicuro e non dovrebbe essere aperto. Se vuoi comunque vedere questa pagina puoi cliccare sul contenuto bloccato nella barra degli indirizzi e sbloccarlo.',
-	'LBL_ADD_BOOKMARK' => 'Aggiungi Bookmark',
-	'LBL_ADD_NEW_BOOKMARK' => 'Aggiungi nuovo Bookmark',
-	'LBL_BOOKMARK' => 'Bookmark',
-	'LBL_BOOKMARK_NAME' => 'Nome Bookmark',
-	'LBL_BOOKMARK_SAVED_SUCCESSFULLY' => 'Bookmark salvato correttamente',
-	'LBL_BOOKMARKS' => 'Bookmark',
-	'LBL_BOOKMARKS_DELETED_SUCCESSFULLY' => 'Bookmark cancellati correttamente',
-	'LBL_BOOKMARKS_LIST' => 'Lista Bookmark',
-	'LBL_BOOKMARK_URL' => 'Url Bookmark',
-	'LBL_CREATED_ON' => 'Creato il',
-	'LBL_EDIT_BOOKMARK' => 'Modifica Bookmark',
-	'LBL_ENTER_BOOKMARK_NAME' => 'Inserisci nome Bookmark',
-	'LBL_ENTER_URL' => 'Inserisci Url (www.example.com)',
-	'LBL_OUR_SITES_LIST' => 'Listra nostri siti',
-	'LBL_RECORD_DELETED_SUCCESSFULLY' => 'Record cancellato correttamente',
-	'Portal' => 'Nostri siti',
-	'SINGLE_Portal' => 'Nostro sito',
+    'Portal' => 'I nostri siti',
+    'LBL_ADD_BOOKMARK' => 'Aggiungi segnalibro',
+    'LBL_BOOKMARK_NAME' => 'Bookmark Nome',
+    'LBL_BOOKMARK_URL' => 'Bookmark Url',
+    'LBL_CREATED_ON' => 'Creato il',
+    'SINGLE_Portal' => 'Il nostro sito',
+    'LBL_EDIT_BOOKMARK' => 'Edit Bookmark',
+    'LBL_ENTER_BOOKMARK_NAME' => 'Inserisci Bookmark Nome',
+    'LBL_ENTER_URL' => 'Inserisci Url (www.example.com)',
+    'LBL_ADD_NEW_BOOKMARK' => 'Aggiungi nuovo segnalibro',
+    'LBL_BOOKMARK_SAVED_SUCCESSFULLY' => 'Bookmark salvato con successo',
+    'LBL_RECORD_DELETED_SUCCESSFULLY' => 'Record eliminato correttamente',
+    'LBL_OUR_SITES_LIST' => 'La nostra Lista Siti',
+    'LBL_BOOKMARKS_LIST' => 'Lista dei segnalibri',
+    'LBL_BOOKMARKS_DELETED_SUCCESSFULLY' => 'Segnalibri eliminati correttamente',
+    'LBL_BOOKMARK' => 'Bookmark',
+    'LBL_BOOKMARKS' => 'Segnalibri',
+    'HTTP_ERROR' => 'Il sito che si sta tentando di aprire non è sicuro e potrebbe non aprire. Se si desidera comunque visualizzare la pagina web quindi è possibile fare clic sul bloccante contenuto nella barra degli indirizzi e abilitarlo.',
 );
 
 $jsLanguageStrings = array(
-    
+    'JS_ENTER_MANDATORY_FIELDS' => 'Inserisci tutti i campi obbligatori',
 );

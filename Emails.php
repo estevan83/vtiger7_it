@@ -8,36 +8,43 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'Date & Time Sent'             => 'Data di invio'               ,
-	'Emails'                       => 'Email'                       , 
-	'LBL_ADD_BCC'                  => 'Aggiungi Bcc'                , 
-	'LBL_ADD_CC'                   => 'Aggiungi Cc'                 , 
-	'LBL_ATTACHMENT'               => 'Allegato'                    , 
-	'LBL_BCC'                      => 'CCN:'                        , 
-	'LBL_BROWSE_CRM'               => 'Cerca nel CRM'               , 
-	'LBL_CC'                       => 'CC:'                         , 
-	'LBL_COMPOSE_EMAIL'            => 'Componi e-mail'              , 
-	'LBL_DESCRIPTION'              => 'Descrizione'                 ,
-        'LBL_MAIL_DATE'                => 'Data email', 
-	'LBL_DRAFTED_ON'               => 'Bozza in'                    ,
-        'LBL_DRAFT'                    => 'Bozza', 
-        'LBL_ATTACHED'                 => 'Allegato', 
-	'LBL_EMAIL_INFORMATION'        => 'Informazioni Email',
-	'LBL_EXCEEDED'                 => 'Eccede'                      ,  
-	'LBL_FORWARD'                  => 'Inoltra'                     ,
-	'LBL_FROM'                     => 'Da'                          ,
-	'LBL_GO_TO_PREVIEW'            => 'Vai all&acute;anteprima'     , 
-	'LBL_INFO'                     => 'Info'                        ,
-	'LBL_MAX_UPLOAD_SIZE'          => 'La dimensione massima per upload &egrave;' ,
-	'LBL_OWNER'                    => 'Proprietario'                ,
-	'LBL_PRINT'                    => 'Stampa'                      ,
-	'LBL_SAVE_AS_DRAFT'            => 'Salva come bozza'            , 
-	'LBL_SELECT_EMAIL_IDS'         => 'Seleziona indirizzo email'   , 
-	'LBL_SELECT_EMAIL_TEMPLATE'    => 'Seleziona un Template Email' , 
-	'LBL_SEND'                     => 'Invia'                       , 
-	'LBL_SENT_ON'                  => 'Inviato a'                   ,
+	'SINGLE_Emails'                => 'Email'                       , // TODO: Review
+	'Emails'                       => 'Emails'                      , // TODO: Review
+	'LBL_SELECT_EMAIL_IDS'         => 'Select Email Addresses'      , 
 	'LBL_SUBJECT'                  => 'Soggetto'                    , 
-	'LBL_TO'                       => 'A'                          ,
-	'SINGLE_Emails'                => 'Email'                       , 
-	'Time Start' => 'Orario invio',
+	'LBL_ATTACHMENT'               => 'Allegato'                    , 
+	'LBL_BROWSE_CRM'               => 'Browse CRM'                  , 
+	'LBL_SEND'                     => 'Invia'                       , 
+	'LBL_SAVE_AS_DRAFT'            => 'Save as Draft'               , 
+	'LBL_GO_TO_PREVIEW'            => 'Go to Preview'               , // TODO: Review
+	'LBL_SELECT_EMAIL_TEMPLATE'    => 'Seleziona un Template Email' , 
+	'LBL_COMPOSE_EMAIL'            => 'Componi e-mail'              , 
+	'LBL_TO'                       => 'To'                          , // TODO: Review
+	'LBL_CC'                       => 'CC :'                        , 
+	'LBL_BCC'                      => 'CCN:'                        , 
+	'LBL_ADD_CC'                   => 'Add Cc'                      , 
+	'LBL_ADD_BCC'                  => 'Add Bcc'                     , 
+	'LBL_MAX_UPLOAD_SIZE'          => 'Maximum upload size is'      , 
+	'LBL_EXCEEDED'                 => 'Exceeded'                    , 
+	'LBL_FORWARD'                  => 'Forward'                     , // TODO: Review
+	'LBL_PRINT'                    => 'Print'                       , // TODO: Review
+	'LBL_DESCRIPTION'              => 'Description'                 , // TODO: Review
+	'LBL_FROM'                     => 'From'                        , // TODO: Review
+	'LBL_INFO'                     => 'Info'                        , // TODO: Review
+	'LBL_DRAFTED_ON'               => 'Drafted on'                  , // TODO: Review
+	'LBL_SENT_ON'                  => 'Sent on'                     , // TODO: Review
+	'LBL_OWNER'                    => 'Owner'                       , // TODO: Review
+	'Date & Time Sent'             => 'Date Sent'                   , // TODO: Review
+    'Time Start'                   => 'misit'                       ,
+    'LBL_EMAIL_INFORMATION' => 'E-mail Informazione',
+    'LBL_EMAILTEMPLATE_WARNING'    => 'Sono l unione-tag correggere',
+    'LBL_EMAILTEMPLATE_WARNING_CONTENT' => 'Si prega di assicurarsi che il modello selezionato dispone di unire-tag relativi al record destinatario. 
+                                             Se si invia una mail a piombo, ma l unione-tag appartieni Modulo di contatto (es: $contacts-lastname$), 
+                                             quindi non verranno uniti i valori.',
+	'Draft'                        => 'Bozza'                       , 
+    'Parent ID'                    => 'Parent Record',
 );
+
+$jsLanguageStrings = array(
+    'JS_WARNING' => 'avviso',
+); 

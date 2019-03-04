@@ -8,30 +8,24 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	// Basic Strings
-	'Assets'        => 'Assets',
 	'SINGLE_Assets'                => 'Asset'                       , 
-	'LBL_ADD_RECORD'               => 'Aggiungi asset'              , 
-	'LBL_RECORDS_LIST'             => 'Lista asset'                 , 
+	'LBL_ADD_RECORD'               => 'Add Assets'                  , 
+	'LBL_RECORDS_LIST'             => 'Assets List'                 , 
+	'LBL_ASSET_INFORMATION'        => 'Assest Details'              , 
+	'Asset No'                     => 'Asset No'                    , 
+	'Serial Number'                => 'Serial Number'               , 
+	'Date Sold'                    => 'Date Sold'                   , 
+	'Date in Service'              => 'Date in Service'             , 
+	'Tag Number'                   => 'Tag Number'                  , 
+	'Invoice Name'                 => 'Invoice Name'                , 
+	'Shipping Method'              => 'Shipping Method'             , 
+	'Shipping Tracking Number'     => 'Shipping Tracking Number'    , 
+	'Asset Name'                   => 'Asset Name'                  , 
+	'Customer Name'                => 'Nome del Cliente'            , 
+	'Notes'                        => 'Notes'                       , 
+	'In Service'                   => 'In Service'                  , 
+	'Out-of-service'               => 'Out-of-service'              , 
 
-	// Blocks
-	'LBL_ASSET_INFORMATION'        => 'Dettagli asset'              , 
-
-	//Field Labels
-	'Asset No'                     => 'Numero asset'                , 
-	'Serial Number'                => 'Numero di serie'             , 
-	'Date Sold'                    => 'Data di vendita'             , 
-	'Date in Service'              => 'Data entrata in servizio'    , 
-	'Tag Number'                   => 'Numero tag'                  , 
-	'Invoice Name'                 => 'Fattura'                     , 
-	'Shipping Method'              => 'Metodo di spedizione'        , 
-	'Shipping Tracking Number'     => 'Numero di Spedizione'        , 
-	'Asset Name'                   => 'Nome asset'                  , 
-	'Customer Name'                => 'Nome del cliente'            , 
-	'Notes'                        => 'Note'                        , 
-
-	/*picklist values*/
-	'In Service'                   => 'In servizio'                 , 
-	'Out-of-service'               => 'Fuori servizio'              , 
+  'Assets' => 'Attività',
 
 );

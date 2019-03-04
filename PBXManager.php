@@ -9,11 +9,11 @@
  ************************************************************************************/
 $languageStrings = array(
 	'Asterisk'                     => 'Asterisk'                    , 
-	'Call From'                    => 'Chiamata da'                 , 
-	'Call To'                      => 'Chiamata verso'              , 
-	'LBL_CALL_INFORMATION'         => 'Dettagli chiamata'           , 
-	'PBXManager ID'                => 'ID PBX Manager'              , 
 	'PBXManager'                   => 'Gestione chiamate'           , 
 	'SINGLE_PBXManager'            => 'Gestione chiamate'           , 
+	'LBL_CALL_INFORMATION'         => 'Call Details'                , 
+	'Call From'                    => 'Chiamata da'                 , 
+	'Call To'                      => 'Chiamata verso'              , 
 	'Time Of Call'                 => 'Durata chiamata'             , 
+	'PBXManager ID'                => 'PBX Manager ID'              , 
 );

@@ -8,17 +8,25 @@
  * All Rights Reserved.
  *************************************************************************************/
 $languageStrings = array(
-	'LBL_ADD_RECORD' => 'Aggiungi template email',
-	'SINGLE_EmailTemplates' => 'Template email',
-	'LBL_EMAIL_TEMPLATES'=> 'Template email',
-	'LBL_EMAIL_TEMPLATE' => 'Template email',
+    'Email Templates' => 'Email Template',
+	'LBL_ADD_RECORD' => 'Add Email Template',
+	'SINGLE_EmailTemplates' => 'Email Template',
+	'LBL_EMAIL_TEMPLATES'=> 'Email Templates',
+	'LBL_EMAIL_TEMPLATE' => 'Email Template',
 	
-	'LBL_TEMPLATE_NAME' => 'Nome template',
-	'LBL_DESCRIPTION' => 'Descrizione',
-	'LBL_SUBJECT' => 'Soggetto',
-	'LBL_GENERAL_FIELDS' => 'Campi generici',
-	'LBL_SELECT_FIELD_TYPE' => 'Seleziona il tipo di campo',
+	'LBL_TEMPLATE_NAME' => 'Template name',
+	'LBL_DESCRIPTION' => 'Description',
+	'LBL_SUBJECT' => 'Subject',
+	'LBL_GENERAL_FIELDS' => 'General Fields',
+	'LBL_SELECT_FIELD_TYPE' => 'Selezionare Module & Field',
+	'LBL_MODULE_NAME' => 'Nome del modulo',
+	'LBL_EMAIL_TEMPLATE_DESCRIPTION'=>'Manage templates for E-Mail module',
+	'LBL_NO_PERMISSIONS_TO_DELETE_SYSTEM_TEMPLATE' => 'Non ci sono autorizzazioni per eliminare sistema Template',
+	'LBL_RECORD_ID'                => 'ID record'                   , 
 	
-	'LBL_EMAIL_TEMPLATE_DESCRIPTION'=>'Gestici i template per il modulo E-Mail',
-	
+);
+
+$jsLanguageStrings = array(
+    'LBL_CUTOMER_LOGIN_DETAILS_TEMPLATE_DELETE_MESSAGE' => 'Non sarà in grado di inviare portale clienti dati d\'accesso al contatto se si elimina "Area Clienti Dettagli" template. Vuoi continuare?',
+	'JS_REQUIRED_FIELD' => '* È necessaria messaggio',
 );

@@ -8,6 +8,16 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
+	'Vendors'                      => 'Fornitori'                   , 
+	'SINGLE_Vendors'               => 'Fornitore'                   , 
+	'LBL_ADD_RECORD'               => 'Add Vendor'                  , 
+	'LBL_RECORDS_LIST'             => 'Vendors List'                , 
+	'LBL_VENDOR_INFORMATION'       => 'Informazioni Fornitore:'     , 
+	'LBL_VENDOR_ADDRESS_INFORMATION' => 'Informazioni Indirizzo:'     , 
+	'Vendor Name'                  => 'Nome Fornitore'              , 
+	'Vendor No'                    => 'No. Fornitore'               , 
+	'Website'                      => 'Sito Web'                    , 
+	'GL Account'                   => 'Codice Contabile'            , 
 	'300-Sales-Software'           => '300-Vendita-Software'        , 
 	'301-Sales-Hardware'           => '301-Vendita-Hardware'        , 
 	'302-Rental-Income'            => '302-Noleggi-Software'        , 
@@ -17,22 +27,13 @@ $languageStrings = array(
 	'306-Internet Sales'           => '306-Vendite-Internet'        , 
 	'307-Service-Hardware Labor'   => '307-Servizi-Riparazione-Hardware', 
 	'308-Sales-Books'              => '308-Vendite-Libri'           , 
-	'Email'                        => 'Email'                       ,
-	'GL Account'                   => 'Codice Contabile'            , 
-	'LBL_ADD_RECORD'               => 'Aggiungi Fornitore'          , 
-	'LBL_RECORDS_LIST'             => 'Lista Fornitori'             , 
-	'LBL_VENDOR_ADDRESS_INFORMATION' => 'Informazioni indirizzo'    , 
-	'LBL_VENDOR_INFORMATION'       => 'Informazioni fornitore'      , 
-	'Phone'                        => 'Telefono'                    ,
-	'SINGLE_Vendors'               => 'Fornitore'                   , 
-	'Vendor Name'                  => 'Nome Fornitore'              , 
-	'Vendor No'                    => 'Nr. Fornitore'               , 
-	'Vendors'                      => 'Fornitori'                   , 
-	'Website'                      => 'Sito Web'                    , 
-);
 
+  'Phone' => 'Telefono Principale',
+  'Email' => 'Email Principale',
+
+);
 $jsLanguageStrings = array(
-	'LBL_DELETE_CONFIRMATION'      => 'Cancellando questo Fornitore cancellerai i relativi ordini di acquisto. Sei sicuro di voler cancellare questo Fornitore?', 
-	'LBL_MASS_DELETE_CONFIRMATION' => 'Cancellando questi Fornitori cancellerai i relativi ordini di acquisto. Sei sicuro di voler cancellare?', 
-	'LBL_RELATED_RECORD_DELETE_CONFIRMATION' => 'Sei sicuro di voler cancellare?', 
+	'LBL_RELATED_RECORD_DELETE_CONFIRMATION' => 'Are you sure you want to delete?', 
+	'LBL_DELETE_CONFIRMATION'      => 'Deleting this Vendor will remove its related PurchaseOrders. Are you sure you want to delete this Vendor?', 
+	'LBL_MASS_DELETE_CONFIRMATION' => 'Deleting this vendor(s) will remove its related Purchase Orders. Are you sure you want to delete the selected Records?', 
 );

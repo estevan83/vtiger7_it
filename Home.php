@@ -8,30 +8,27 @@
  * All Rights Reserved.
  ************************************************************************************/
 $languageStrings = array(
-	'ALVT'                         => 'Migliori organizzazioni'             , 
-	'CVLVT'                        => 'Indici chiave'                , 
-	'GRT'                          => 'I miei gruppi'                , 
-	'HDB'                          => 'Cruscotto home page'          , 
-	'HLT'                          => 'Migliori ticket'              , 
-	'Home'                         => 'Cruscotto',
-	'ILTI'                         => 'Fatture importanti'           , 
-	'LTFAQ'                        => 'Mie FAQ recenti'              , 
-	'OLTPO'                        => 'Ordini di acquisto importanti', 
-	'OLTSO'                        => 'Ordini di vendita importanti' , 
-	'PA'                           => 'Eventi pendenti'              , 
-	'PLVT'                         => 'Migliori opportunit&agrave;'  , 
-	'QLTQ'                         => 'Migliori preventivi'          , 
-	'UA'                           => 'Prossimi eventi'              ,
-	'Key Metrics'                  => 'Metriche chiave',
-	'Tag Cloud'                    => 'Tag Cloud',
-    'LBL_ADD_NEW_DASHBOARD'        => 'Aggiunti nuova tab',
-    'LBL_MAX_CHARACTERS_ALLOWED_DASHBOARD' => 'La lunghezza massima per il nome della tab è 30 caratteri.',
+	'ALVT'                         => 'Migliori Aziende'            , 
+	'PLVT'                         => 'Migliori Opportunità '      , 
+	'QLTQ'                         => 'Migliori Preventivi'         , 
+	'CVLVT'                        => 'Indici chiave'               , 
+	'HLT'                          => 'Top Support Tickets'         , 
+	'GRT'                          => 'I miei Gruppi'               , 
+	'OLTSO'                        => 'Ordini di Vendita Importanti', 
+	'ILTI'                         => 'Fatture Importanti'          , 
+	'HDB'                          => 'Cruscotto Home Page'         , 
+	'OLTPO'                        => 'Ordini di Acquisto Importanti', 
+	'LTFAQ'                        => 'Mie FAQ recenti'             , 
+	'UA'                           => 'Prossimi Eventi'             , 
+	'PA'                           => 'Eventi Pendenti'             , 
+        'Home'                         => 'Dashboard'                         ,
 
-    'My Dashboard' => 'Il mio cruscotto',
+  'LBL_SAVE_ORDER' => 'Salvare L\'Ordine',
+  'LBL_ADD_NEW_DASHBOARD' => 'Aggiungere un nuovo pannello',
+	'LBL_MAX_CHARACTERS_ALLOWED_DASHBOARD' => 'Massimo 30 caratteri sono consentiti per il nome cruscotto.',
+);
 
-    'Default' => 'Predefiniti',
-    'LBL_SHOW' => 'Mostra',
-    'LBL_BOTH' => 'Entrambi',
-    'LBL_SELECT_DATE_RANGE' => 'Seleziona per data',
-
+$jsLanguageStrings = array(
+	'JS_TAB_NAME_SHOULD_NOT_BE_EMPTY' => 'nome cruscotto non può non essere vuoto',
+	'JS_NO_DATA_AVAILABLE' => 'Nessun dato disponibile',
 );
