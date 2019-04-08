@@ -9,9 +9,9 @@
  ************************************************************************************/
 $languageStrings = array(
 	'SINGLE_Documents'             => 'Documento'                   , 
-	'Documents'                    => 'Documents'                   , // TODO: Review
-	'LBL_ADD_RECORD'               => 'Add Document'                , 
-	'LBL_RECORDS_LIST'             => 'Documents List'              , 
+	'Documents'                    => 'Documenti'                   ,
+	'LBL_ADD_RECORD'               => 'Aggiungi documento'          , 
+	'LBL_RECORDS_LIST'             => 'Lista documenti'             , 
 	'LBL_NOTE_INFORMATION'         => 'Informazioni Base'           , 
 	'LBL_FILE_INFORMATION'         => 'Informazioni file'           , 
 	'LBL_DESCRIPTION'              => 'Descrizione'                 , 
@@ -26,7 +26,7 @@ $languageStrings = array(
 	'Download Count'               => 'Conteggio download'          , 
 	'Folder Name'                  => 'Nome cartella'               , 
 	'Document No'                  => '>Numero documento'           , 
-	'Last Modified By'             => 'Last Modified By'            , 
+	'Last Modified By'             => 'Ultima modifica di'            , 
 	'LBL_FOLDER_HAS_DOCUMENTS'     => 'Please move documents from folder before deleting', 
 	'LBL_DOWNLOAD_FILE'            => 'Download file'               , 
 	'LBL_CHECK_FILE_INTEGRITY'     => 'Controllo di integrità'     , 
