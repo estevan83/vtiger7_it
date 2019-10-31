@@ -11,10 +11,10 @@ $languageStrings = array(
 	'Leads'                        => 'Leads'                       , 
 	'SINGLE_Leads'                 => 'Lead'                        , 
 	'LBL_RECORDS_LIST'             => 'Leads List'                  , 
-	'LBL_ADD_RECORD'               => 'Add Lead'                    , 
+	'LBL_ADD_RECORD'               => 'Aggiungi Lead'                    , 
 	'LBL_LEAD_INFORMATION'         => 'Informazioni Lead'           , 
 	'Lead No'                      => 'No. Lead'                    , 
-	'Company'                      => 'Societ&agrave;'              , 
+	'Company'                      => 'Società'              , 
 	'Designation'                  => 'Designazione'                , 
 	'Website'                      => 'Sito Web'                    , 
 	'Industry'                     => 'Settore'                     , 
@@ -37,14 +37,14 @@ $languageStrings = array(
 	'Pre Qualified'                => 'Prequalificato'              , 
 	'Qualified'                    => 'Qualificato'                 , 
 	'Warm'                         => 'Caldo'                       , 
-	'LBL_CONVERT_LEAD'             => 'Converti Lead:'              , 
-	'LBL_TRANSFER_RELATED_RECORD'  => 'Transfer related record to'  , 
+	'LBL_CONVERT_LEAD'             => 'Converti Lead'              , 
+	'LBL_TRANSFER_RELATED_RECORD'  => 'Trasferimento record correlati a'  , 
 	'LBL_CONVERT_LEAD_ERROR'       => 'You have to enable either Organization or Contact to convert the Lead', 
 	'LBL_LEADS_FIELD_MAPPING_INCOMPLETE' => 'Leads Field Mapping is incomplete(Settings > Module Manager > Leads > Leads Field Mapping)', 
-	'LBL_LEADS_FIELD_MAPPING'      => 'Leads Field Mapping'         , 
-	'LBL_CUSTOM_FIELD_MAPPING'     => 'Piombo Mappatura conversione dati'          , 
+	'LBL_LEADS_FIELD_MAPPING'      => 'Schema per conversione dati'         , 
+	'LBL_CUSTOM_FIELD_MAPPING'     => 'Schema per conversione dati'          , 
     'LBL_IMAGE_INFORMATION' => 'Foto di profilo',
-    'Lead Image' => 'Immagine di piombo',
+    'Lead Image' => 'Immagine',
 	
 
   'Phone' => 'Telefono Principale',
@@ -53,7 +53,7 @@ $languageStrings = array(
 
 );
 $jsLanguageStrings = array(
-	'JS_SELECT_CONTACTS'           => 'Select Contacts to proceed'  , 
-	'JS_SELECT_ORGANIZATION'       => 'Select Organization to proceed', 
-	'JS_SELECT_ORGANIZATION_OR_CONTACT_TO_CONVERT_LEAD' => 'Conversion requires selection of Contact or Organization', 
+	'JS_SELECT_CONTACTS'           => 'Seleziona un contatto per procedere'  , 
+	'JS_SELECT_ORGANIZATION'       => 'Seleziona una società per procedere', 
+	'JS_SELECT_ORGANIZATION_OR_CONTACT_TO_CONVERT_LEAD' => 'La conversione richiede la selezione di un contatto o di una società', 
 );
